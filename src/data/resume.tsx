@@ -80,8 +80,8 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "rizkyfahreza@gmail.com",
+    tel: "+62 895-2012-4809",
     social: {
       GitHub: {
         name: "GitHub",
@@ -92,14 +92,14 @@ export const DATA = {
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/fahrezarizkypradana/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://www.instagram.com/reza_lnc/",
         icon: Icons.x,
 
         navbar: true,
