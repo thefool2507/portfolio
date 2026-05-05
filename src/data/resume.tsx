@@ -92,14 +92,14 @@ export const DATA = {
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/fahrezarizkypradana/",
+        url: "https://www.linkedin.com/in/fahrezarizkypradana",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://www.instagram.com/reza_lnc/",
+        url: "https://www.instagram.com/reza_lnc",
         icon: Icons.x,
 
         navbar: true,
