@@ -252,7 +252,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://github.com/thefool2507/FunTrip_LandingPage/blob/main/public/FunTrip.mp4?raw=true",
+        "https://github.com/thefool2507/FunTrip_LandingPage/blob/main/FunTrip.mp4?raw=true",
     },
     {
       title: "Magic UI",
