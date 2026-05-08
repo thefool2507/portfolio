@@ -125,7 +125,7 @@ export const DATA = {
     {
       title: "Fun Trip",
       href: "https://funtrip-page.vercel.app/",
-      dates: "May 2026",
+      dates: "May 2026 - present",
       active: true,
       description:
         "A modern travel landing page built with Next.js 16, Tailwind CSS v4, and TypeScript.",
@@ -148,36 +148,34 @@ export const DATA = {
         "https://github.com/thefool2507/FunTrip_LandingPage/blob/main/FunTrip.mp4?raw=true",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "FunOps",
+      href: "https://funops.vercel.app/",
+      dates: "June 2026 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "FunOps is a task management redefined with design professional, elegant workspace for managing your daily operations. Beautifully minimal, powerfully functional.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "PLpgSQL",
+        "Javascript",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Supabase",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://funops.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/thefool2507/funops",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://github.com/thefool2507/funops/blob/main/funops.mp4?raw=true",
     },
     {
       title: "llm.report",
