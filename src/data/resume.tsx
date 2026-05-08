@@ -200,7 +200,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://github.com/thefool2507/funflow/blob/main/funflow.mp4?raw=true",
+      video: "https://github.com/thefool2507/funflow/blob/master/funflow.mp4?raw=true",
     },
   ],
 
