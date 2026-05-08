@@ -111,7 +111,7 @@ function Band() {
 
   return (
     <>
-      <group position={[-3.7, 4, 0]} scale={1}>
+      <group position={[-4.1, 4, 0]} scale={1}>
         <RigidBody ref={fixed} {...segmentProps} type="fixed" />
         <RigidBody position={[0.5, 0, 0]} ref={j1} {...segmentProps}>
           <BallCollider args={[0.1]} />
