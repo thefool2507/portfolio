@@ -5,11 +5,10 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import ContactSection from "@/components/section/contact-section";
-// import HackathonsSection from "@/components/section/hackathons-section";
 import GithubSection from "@/components/section/github-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
+import CertificateSection from "@/components/section/certificate-section";
 import { ArrowUpRight } from "lucide-react";
 import { LogoLoop } from "@/components/reactbits/logo-loop";
 
@@ -18,6 +17,7 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
+      {/* ── Hero ── */}
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
@@ -44,12 +44,13 @@ export default function Page() {
         </div>
       </section>
 
+      {/* ── About ── */}
       <section id="about">
         <div className="flex min-h-0 flex-col gap-y-4">
-          <BlurFade delay={BLUR_FADE_DELAY * 3} inView> {/* ✅ */}
+          <BlurFade delay={BLUR_FADE_DELAY * 3} inView>
             <h2 className="text-xl font-bold">About</h2>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 4} inView> {/* ✅ */}
+          <BlurFade delay={BLUR_FADE_DELAY * 4} inView>
             <div className="prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
               <Markdown>{DATA.summary}</Markdown>
             </div>
@@ -57,20 +58,22 @@ export default function Page() {
         </div>
       </section>
 
+      {/* ── Work ── */}
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-6">
-          <BlurFade delay={BLUR_FADE_DELAY * 5} inView> {/* ✅ */}
+          <BlurFade delay={BLUR_FADE_DELAY * 5} inView>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 6} inView> {/* ✅ */}
+          <BlurFade delay={BLUR_FADE_DELAY * 6} inView>
             <WorkSection />
           </BlurFade>
         </div>
       </section>
 
+      {/* ── Education ── */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-6">
-          <BlurFade delay={BLUR_FADE_DELAY * 7} inView> {/* ✅ */}
+          <BlurFade delay={BLUR_FADE_DELAY * 7} inView>
             <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
           <div className="flex flex-col gap-8">
@@ -78,7 +81,7 @@ export default function Page() {
               <BlurFade
                 key={education.school}
                 delay={BLUR_FADE_DELAY * 8 + index * 0.05}
-                inView  
+                inView
               >
                 <Link
                   href={education.href}
@@ -116,32 +119,36 @@ export default function Page() {
         </div>
       </section>
 
+      {/* ── Skills ── */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-4">
-          <BlurFade delay={BLUR_FADE_DELAY * 9} inView> 
+          <BlurFade delay={BLUR_FADE_DELAY * 9} inView>
             <h2 className="text-xl font-bold">My Daily Tools</h2>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 11} inView> 
+          <BlurFade delay={BLUR_FADE_DELAY * 11} inView>
             <LogoLoop skills={[...DATA.skills]} />
           </BlurFade>
         </div>
       </section>
 
+      {/* ── Projects ── */}
       <section id="projects">
         <BlurFade delay={BLUR_FADE_DELAY * 11} inView>
           <ProjectsSection />
         </BlurFade>
       </section>
 
-      <section id="hackathons">
+      {/* ── Certificates ── */}
+      <section id="certificates">
         <BlurFade delay={BLUR_FADE_DELAY * 13} inView>
-          <GithubSection />
+          <CertificateSection />
         </BlurFade>
       </section>
 
-      <section id="contact">
-        <BlurFade delay={BLUR_FADE_DELAY * 16} inView> 
-          <ContactSection />
+      {/* ── GitHub ── */}
+      <section id="github">
+        <BlurFade delay={BLUR_FADE_DELAY * 15} inView>
+          <GithubSection />
         </BlurFade>
       </section>
     </main>
