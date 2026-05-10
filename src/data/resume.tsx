@@ -109,7 +109,7 @@ export const DATA = {
   ],
 
   contact: {
-    email: "rizkyfahreza@gmail.com",
+    email: "rizkyfahreza937@gmail.com",
     tel: "+62 895-2012-4809",
     social: {
       GitHub: {
