@@ -121,7 +121,7 @@ export default function ContactPage() {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Kimi No Namae?"
+              placeholder="Your Name"
               required
               className={inputClass}
               style={inputStyle}
