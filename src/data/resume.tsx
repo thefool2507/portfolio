@@ -169,23 +169,23 @@ export const DATA = {
 
   projects: [
     {
-      title: "Fun Trip",
-      href: "https://funtrip-page.vercel.app/",
+      title: "Siaprawat - Integrated Professional Care Services",
+      href: "https://siaprawat.vercel.app/",
       dates: "May 2026 - present",
       active: true,
       description:
-        "A modern travel landing page built with Next.js 16, Tailwind CSS v4, and TypeScript.",
-      technologies: ["Next.js", "Typescript", "Lucide React", "Next/Image", "TailwindCSS"],
+        "Integrated professional care services for the elderly and people with disabilities. Trained, certified, and compassionate caregivers.",
+      technologies: ["Next.js", "Typescript", "Lucide React", "react", "TailwindCSS", "Supabase", "postgresql"],
       links: [
         {
           type: "Website",
-          href: "https://funtrip-page.vercel.app/",
+          href: "https://siaprawat.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://github.com/thefool2507/FunTrip_LandingPage/blob/main/FunTrip.mp4?raw=true",
+        "https://github.com/thefool2507/siaprawat/blob/main/siaprawat.mp4?raw=true",
     },
     {
       title: "FunOps",
@@ -227,6 +227,25 @@ export const DATA = {
       ],
       image: "",
       video: "https://github.com/thefool2507/funflow/blob/master/funflow.mp4?raw=true",
+    },
+    {
+      title: "Fun Trip",
+      href: "https://funtrip-page.vercel.app/",
+      dates: "May 2026 - present",
+      active: true,
+      description:
+        "A modern travel landing page built with Next.js 16, Tailwind CSS v4, and TypeScript.",
+      technologies: ["Next.js", "Typescript", "Lucide React", "Next/Image", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://funtrip-page.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://github.com/thefool2507/FunTrip_LandingPage/blob/main/FunTrip.mp4?raw=true",
     },
   ],
 } as const;
