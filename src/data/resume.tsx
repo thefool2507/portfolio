@@ -167,7 +167,7 @@ export const DATA = {
       degree: "Bachelor of Computer Science",
       logoUrl: "/unmuhjember.png",
       start: "2022",
-      end: "2026",
+      end: "present",
     },
     {
       school: "Muhammadiyah Senior High School 3 Jember",
