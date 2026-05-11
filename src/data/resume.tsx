@@ -146,6 +146,18 @@ export const DATA = {
       description:
         "Developed a web-based Point of Sale (POS) system as part of an internship program. Responsible for designing and implementing system features to support inventory management, sales transactions, and operational workflows.",
     },
+    {
+      company: "Siaprawat",
+      href: "https://siaprawat.vercel.app/",
+      badges: [],
+      location: "Remote",
+      title: "software Engineer",
+      logoUrl: "/siaprawat.jpg",
+      start: "Sep 2024",
+      end: "Feb 2025",
+      description:
+        "Built and developed the Siaprawat website, an integrated professional care service platform for seniors and people with disabilities. Responsible for designing and implementing the website's features, ensuring a user-friendly experience, and maintaining the site's functionality.",
+    },
   ],
 
   education: [
