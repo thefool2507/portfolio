@@ -18,7 +18,7 @@ export const DATA = {
   location: "Jember, East Java, Indonesia",
   locationLink: "https://www.google.com/maps/place/jember",
   description:
-    "I am an AI Software Engineer who enjoys building things that not only look cool, but also solve people's problems.",
+    "Software Engineer, I love building web apps to AI systems, creating technology people actually enjoy using.",
   summary:
     "I started by wondering how apps work, and now I spend my time creating them, breaking them, and making them better. Some of the things I've built include a [simple productivity app](https://github.com/thefool2507/funflow) and a [web based tool for managing daily tasks](https://funops.vercel.app). I enjoy mixing clean design with solid functionality, building products that are both cool and useful. Right now, I'm focused on growing my skills and creating projects that make a real impact. If you're curious, feel free to explore my [projects](https://rezalnc.vercel.app/) or check my code on [GitHub.](https://github.com/thefool2507)",
   avatarUrl: "/me.png",
@@ -109,7 +109,7 @@ export const DATA = {
   ],
 
   contact: {
-    email: "rizkyfahreza@gmail.com",
+    email: "rizkyfahreza937@gmail.com",
     tel: "+62 895-2012-4809",
     social: {
       GitHub: {
