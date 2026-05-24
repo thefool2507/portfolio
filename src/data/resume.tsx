@@ -241,6 +241,25 @@ export const DATA = {
       video: "https://github.com/thefool2507/funflow/blob/master/funflow.mp4?raw=true",
     },
     {
+      title: "SMP Muhammadiyah 7 Wuluhan Profile",
+      href: "https://smpmuh7wuluhan.vercel.app/",
+      dates: "May 2026 - present",
+      active: true,
+      description:
+        "Developed a responsive school profile website for SMP Muhammadiyah 7 Wuluhan to improve the institution’s digital presence and accessibility of information for students, parents, and prospective applicants.",
+      technologies: ["Next.js", "Typescript", "Lucide React", "Next/Image", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://smpmuh7wuluhan.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://github.com/thefool2507/web-profile-smp/blob/main/smpm7.mp4?raw=true",
+    },
+    {
       title: "Fun Trip",
       href: "https://funtrip-page.vercel.app/",
       dates: "May 2026 - present",
