@@ -54,7 +54,7 @@ export const DATA = {
 
   certificates: [
     {
-      title: "Software Developer Intern",
+      title: "Software Engineer Intern",
       issuer: "Braincore.id",
       date: "Jul 2025",
       category: "Web Dev",
@@ -139,7 +139,7 @@ export const DATA = {
       href: "https://braincore.id",
       badges: [],
       location: "Remote",
-      title: "software developer",
+      title: "software Engineer Intern",
       logoUrl: "/braincore.png",
       start: "Mar 2025",
       end: "Jul 2025",
