@@ -257,7 +257,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://github.com/thefool2507/web-profile-smp/blob/main/smpm7.mp4?raw=true",
+        "https://github.com/thefool2507/web-profile-smp/blob/main/smp7.mp4?raw=true",
     },
     {
       title: "Fun Trip",
