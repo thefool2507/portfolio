@@ -181,6 +181,44 @@ export const DATA = {
 
   projects: [
     {
+      title: "Point of Sale System",
+      href: "https://github.com/thefool2507/Point-of-Sale-System",
+      dates: "March 2025 - July 2025",
+      active: true,
+      description:
+        "I developed a web-based Point of Sale (POS) system designed to support daily sales transactions, inventory management, and business operation workflows in a more organized and efficient way.",
+      technologies: ["Javascript", "Node.js", "Express.js", "MySQL", "HTML/CSS"],
+      links: [
+        {
+          type: "Source(Private)",
+          href: "https://github.com/thefool2507/Point-of-Sale-System",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://github.com/thefool2507/Point-of-Sale-System/blob/main/POS.mp4?raw=true",
+    },
+    {
+      title: "SMP Muhammadiyah 7 Wuluhan Profile",
+      href: "https://smpmuh7wuluhan.vercel.app/",
+      dates: "May 2026 - present",
+      active: true,
+      description:
+        "Developed a responsive school profile website for SMP Muhammadiyah 7 Wuluhan to improve the institution’s digital presence and accessibility of information for students, parents, and prospective applicants.",
+      technologies: ["Next.js", "Typescript", "Lucide React", "Next/Image", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://smpmuh7wuluhan.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://github.com/thefool2507/web-profile-smp/blob/main/smp7.mp4?raw=true",
+    },
+    {
       title: "Siaprawat - Integrated Professional Care Services",
       href: "https://siaprawat.vercel.app/",
       dates: "May 2026 - present",
@@ -239,25 +277,6 @@ export const DATA = {
       ],
       image: "",
       video: "https://github.com/thefool2507/funflow/blob/master/funflow.mp4?raw=true",
-    },
-    {
-      title: "SMP Muhammadiyah 7 Wuluhan Profile",
-      href: "https://smpmuh7wuluhan.vercel.app/",
-      dates: "May 2026 - present",
-      active: true,
-      description:
-        "Developed a responsive school profile website for SMP Muhammadiyah 7 Wuluhan to improve the institution’s digital presence and accessibility of information for students, parents, and prospective applicants.",
-      technologies: ["Next.js", "Typescript", "Lucide React", "Next/Image", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://smpmuh7wuluhan.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://github.com/thefool2507/web-profile-smp/blob/main/smp7.mp4?raw=true",
     },
     {
       title: "Fun Trip",
