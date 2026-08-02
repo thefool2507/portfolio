@@ -164,10 +164,10 @@ export const DATA = {
     {
       school: "University of Muhammadiyah Jember",
       href: "https://unmuhjember.ac.id/",
-      degree: "Bachelor of Computer Science",
+      degree: "Bachelor of Informatics Engineering",
       logoUrl: "/unmuhjember.png",
       start: "2022",
-      end: "present",
+      end: "2026",
     },
     {
       school: "Muhammadiyah Senior High School 3 Jember",
